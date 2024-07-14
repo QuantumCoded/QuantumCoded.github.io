@@ -1,0 +1,51 @@
+html {
+    background-color: #111111;
+}
+
+body {
+    margin: 50px auto;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 3px solid #333333;
+    border-radius: 4px;
+}
+
+.repo {
+    height: 150px;
+    border-radius: 4px;
+}
+
+.repos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#header {
+    display: flex;
+}
+
+#header > img {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+#header > b {
+    font-size: 50px;
+    align-self: center;
+}
+
+#profiles {
+    display: flex;
+    justify-content: center;
+}
+
+#profiles img {
+    margin: 0 10px;
+}
